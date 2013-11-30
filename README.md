@@ -1,4 +1,5 @@
 lindwurm.github.io
 ==================
 
-lindwurm.biz
+事実上のlindwurm.biz。
+mirror: [http://lindwurm.neocities.org]
