@@ -6,16 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="lindwurm">
     <link rel="shortcut icon" href="favicon.png">
 
     <title>lindwurm. biz</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -25,32 +22,195 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-  </head>
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  <style type="text/css" id="holderjs-style"></style></head>
 
   <body>
-   <center>
-    <div class="container">
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <img src="lindwurm_500px.png" alt="lindwurm" class="img-responsive img-circle">
-        <h1>lindwurm</h1>
-        <p>I can't read and write code(s).</p>
-        <h3>モードちゃん is かわいい</h3>
-        <p><span class="entypo-twitter"></span> <a href="https://twitter.com/lindwurm_">@lindwurm_</a></p>
-        <p><span class="entypo-google-circles"></span> <a href="http://blog.lindwurm.biz">blog.lindwurm.biz</a></p>
-        <p><span class="entypo-github"></span> <a href="https://github.com/lindwurm">github.com/lindwurm</a></p>
+    <!-- Carousel
+    ================================================== -->
+   <div class="fill">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li class="" data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="container">
+            <div class="carousel-caption">
+		<center>
+ 		   <img src="img/lindwurm_500px.png" alt="lindwurm" class="img-responsive img-circle">
+                   <h1>Hotaka Hitagi</h1>
+		   <h2>― also known as "lindwurm". </h2>
+		   <p>Open-Source Software Translator.<br>I can't write code(s), but I can translate.</p>
+		   <p>I want to be software evangelist... but I don't have any skill ;(</p>
+        	</center>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+        	<center>
+ 		   <img src="img/lindwurm_500px_not.png" alt="lindwurm" class="img-responsive img-circle">
+                   <h1>Hotaka Hitagi</h1>
+		   <h2>― also known as "lindwurm". </h2>
+		   <p>Open-Source Software Translator.<br>I can't write code(s), but I can translate.</p>
+		   <p>I want to be software evangelist... but I don't have any skill ;(</p>
+        	</center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+   </div>
+    <div class="container">
+      <hr class="featurette-divider">
+              <ul class="nav nav-tabs" style="margin-bottom: 15px;">
+                <li class="active"><a href="#home" data-toggle="tab"><h2>Communities</h2></a></li>
+                <li class=""><a href="#web" data-toggle="tab"><h2>Accounts</h2></a></li>
+              </ul>
+              <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade active in" id="home">
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="img/mint.png" style="width: 140px; height: 140px;">
+          <h2>Linux Mint</h2>
+	  <h4>Linux Mint Japan Member</h4>
+          <p>The purpose of Linux Mint is to produce a modern, elegant and comfortable operating system which is both powerful and easy to use.</p>
+          <p><a class="btn btn-default" href="http://linuxmint-jp.net" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/stk.png" style="width: 140px; height: 140px;">
+          <h2>SuperTuxKart</h2>
+	  <h4>STK-Team Localizer</h4>
+          <p>SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and items for you to try. Have fun!</p>
+          <p><a class="btn btn-default" href="http://supertuxkart.sourceforge.net" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/mikutter-l10n.png" style="width: 140px; height: 140px;">
+          <h2>mikutter-l10n</h2>
+	  <h4>Project Leader/Manager</h4>
+          <p>mikutter is simply, powerfully, and moefully twitter client. mikutter-l10n is localization project from japanese.</p>
+          <p><a class="btn btn-default" href="http://mikutter-l10n.github.io" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/antergos.png" style="width: 140px; height: 140px;">
+          <h2>Antergos</h2>
+	  <h4>Japanese Team Reviewer</h4>
+          <p>The purpose of Antergos is to provide a modern, elegant and powerful operating system based on Arch Linux.</p>
+          <p><a class="btn btn-default" href="http://antergosjp.github.io" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/ubuntu.png" style="width: 140px; height: 140px;">
+          <h2>Ubuntu</h2>
+          <h4>Ubuntu Japanese Translator</h4>
+          <p>Ubuntu means 'I am what I am because of who we all are'. The Ubuntu operating system brings the spirit of Ubuntu to the world of computers.</p>
+          <p><a class="btn btn-default" href="http://ubuntulinux.jp" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/manjaro.png" style="width: 140px; height: 140px;">
+          <h2>Manjaro Linux</h2>
+          <h4>Japanese Localize Coodinator</h4>
+          <p>Manjaro is a user-friendly Linux distribution based on the independently developed Arch operating system. </p>
+          <p><a class="btn btn-default" href="http://manjaro.org" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      </div>
+      </div>
+                <div class="tab-pane fade" id="web">
+                      <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="img/twitter.png" style="width: 140px; height: 140px;">
+          <h2>Twitter</h2>
+	  <h4>@lindwurm_</h4>
+          <p><a class="btn btn-default" href="https://twitter.com/lidnwurm_" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/blogger.png" style="width: 140px; height: 140px;">
+          <h2>Blogger</h2>
+	  <h4>ておくれブログ</h4>
+          <p><a class="btn btn-default" href="http://blog.lindwurm.biz" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/github.png" style="width: 140px; height: 140px;">
+          <h2>GitHub</h2>
+	  <h4>lindwurm</h4>
+          <p><a class="btn btn-default" href="https://github.com/lindwurm" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/launchpad.png" style="width: 140px; height: 140px;">
+          <h2>Launchpad</h2>
+	  <h4>lindwurm</h4>
+          <p><a class="btn btn-default" href="https://launchpad.net/~lindwurm" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/transifex.png" style="width: 140px; height: 140px;">
+          <h2>Transifex</h2>
+          <h4>lindwurm</h4>
+          <p><a class="btn btn-default" href="https://www.transifex.com/accounts/profile/lindwurm/" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/amazon.png" style="width: 140px; height: 140px;">
+          <h2>Amazon Wishlist</h2>
+          <h4>lindwurm_</h4>
+          <p><a class="btn btn-default" href="http://bit.ly/lindwurm_" role="button">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      </div>
+                </div>
+              </div>
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">maud is so <span class="text-muted">cute.</span></h2>
+          <h3 class="small">モードちゃん！モードちゃん！モードちゃん！モードちゃんぅぅうううわぁああああああああああああああああああああああん！！！あぁああああ…ああ…あっあっー！あぁああああああ！！！モードちゃんモードちゃんモードちゃんぅううぁわぁああああ！！！<br><br>
+くんくんんはぁっ！モードちゃんの綺麗な水色の髪をクンカクンカしたいお！クンカクンカ！あぁあ！！間違えた！モフモフしたいお！モフモフ！モフモフ！髪髪モフモフ！カリカリモフモフ…きゅんきゅんきゅい！！<br><br>
+あぁあ！！間違えた！モフモフしたいお！モフモフ！モフモフ！髪髪モフモフ！カリカリモフモフ…きゅんきゅんきゅい！！ ジャケット絵のモードちゃんかわいかったよぅ！！あぁぁああ…あああ…あっあぁああああ！！ふぁぁあああんんっ！！<br><br>
+多機種に移植されて良かったねモードちゃん！あぁあああああ！かわいい！モードちゃん！かわいい！あっああぁああ！ 続編でBGAも作られて嬉し…いやぁああああああ！！！にゃああああああああん！！ぎゃああああああああ！！ ぐあああああああああああ！！！<br><br>
+ジャケ絵なんて現実じゃない！！！！あ…モードちゃんもよく考えたら…モ ー ド ち ゃ ん は 現 実 じ ゃ な い ？にゃあああああああああああん！！うぁあああああああああ あ！！そんなぁああああああ！！いやぁぁぁあああああああ！！はぁあああああん！！＜まっする＞ぅぅうううう！！<br><br>
+この！ちきしょー！やめてやる！！音ゲーなんかやめ…て…え！？見…てる？指のモードちゃんが僕を見てる？リフレクのモードちゃんが僕を見てるぞ！モードちゃんが僕を見てるぞ！<br><br>
+弐寺のモードちゃんが僕を見てるぞ！！ポップンのモードちゃんが僕に話しかけてるぞ！！！よかった…世の中まだまだ捨てたモンじゃないんだねっ！いやっほぉおおおおおおお！！！僕にはモードちゃんがいる！！<br><br>
+やったよリントヴルム！！ひとりでできるもん！！！ あ、小瑠璃ちゃああああああああああああああん！！いやぁあああああああああああああああ！！！！<br><br>
+あっあんああっああんあTOMOSUKE様ぁあ！！jubeatー！！リフレクぅうううううう！！！KONMAIぃいいいいいい！！ううっうぅうう！！俺の想いよモードちゃんへ届け！！音ゲー筐体のモードちゃんへ届け！！！！</h3>
+        </div>
+        <div class="col-md-5 well well-sm">
+          <img src="img/lindwurm_500px_not.png" class="featurette-image img-responsive">
+        </div>
       </div>
 
-    </div> <!-- /container -->
-   </center>
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+<hr>
+      <footer>
+        <p>© 2013 Hotaka Hitagi a.k.a. "lindwurm"</p>
+      </footer>
+
+    </div><!-- /.container -->
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="jquery-1.js"></script>
     <script src="bootstrap.js"></script>
-  
+    <script src="holder.js"></script>
 
-  </body>
-</html>
+</body></html>
