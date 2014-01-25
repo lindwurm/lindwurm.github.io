@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="lindwurm">
+		<link rel="shortcut icon" href="icon.svg">
+
+		<title>lab:lindwurm</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+
+		<!-- Custom styles -->
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<!-- Button trigger modal -->
+				<button class="btn btn-default" data-toggle="modal" data-target="#About">
+					<h1><span class="entypo-menu"></span></h1>
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="About" tabindex="-1" role="dialog" aria-labelledby="AboutLabel" aria-hidden="true" >
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<center>
+									<h1>about this page</h1>
+									<img src="img/logo.svg" width="60%" class="img-circle img-thumbnail" />
+									<p class="lead">© lindwurm 2014</p>
+									<p>based on <a href="http://getbootstrap.com" target="_blank">Bootstrap 3</a>, licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a> .<br>
+									Code licensed under <a href="LICENSE.html" target="_blank">MIT Open Source License</a>.</p>
+									<p>
+										<a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flindwurm.biz%2Flab&text=実験室 - lab:lindwurm&tw_p=tweetbutton&url=http%3A%2F%2Flindwurm.biz%2Flab" target="_blank" class="btn btn-primary btn-lg"><span class="entypo-twitter"></span> <b>Tweet</b></a>
+									</p>
+									<!-- Button trigger modal -->
+									<p>
+										<button class="btn btn-danger navbar-btn" data-toggle="modal" data-target="#Shinchoku"><h2>進捗どうですか</h2></button>
+									</p>
+								</center>
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+
+				<!-- 進捗Modal -->
+				<div class="modal fade" id="Shinchoku" tabindex="-1" role="dialog" aria-labelledby="ShinchokuLabel" aria-hidden="true" >
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<center>
+									<h1>モードちゃんかわいいです</h1>
+									<img src="img/lindwurm.png" width="60%" class="img-circle img-thumbnail img-responsive" />
+									<p class="lead">達成度は100%です</p>
+									<div class="progress">
+										<div class="progress-bar progress-bar-success" style="width: 100%"></div>
+									</div>
+									<p class="lead">全ての箇所が完成しました。<br>当初の目的は達成です。</p>
+									<p>
+										<a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flindwurm.biz%2Flab&screen_name=lindwurm_&text=%e9%80%b2%e6%8d%97%e3%81%8a%e3%82%81%e3%81%a7%e3%81%a8%e3%81%86%e3%81%94%e3%81%96%e3%81%84%e3%81%be%e3%81%99%ef%bc%81%ef%bc%81%ef%bc%81&tw_p=tweetbutton&url=http%3A%2F%2Flindwurm.biz%2Flab" target="_blank" class="btn btn-primary btn-lg"><span class="entypo-twitter"></span> <b>祝う</b></a>
+									</p>
+									<p>
+										<button class="btn btn-default" type="button" data-dismiss="modal">閉じる</button>
+									</p>
+								</center>
+							</div>
+						</div><!-- /.modal-content -->
+					</div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-5">
+					<img src="img/lindwurm.png" class="img-circle img-thumbnail img-responsive" /><hr>
+				</div>
+				<div class="col-xs-12 col-md-7">
+					<div class="jumbotron"><center>
+						<h1>lindwurm</h1>
+						<h2>Open-Source Software Translator</h2>
+						<h3>モードちゃんかわいいです</h3>
+						<h4>latest work: <a href="http://koruri.lindwurm.biz">小瑠璃フォント</a></h4><hr>
+						<a href="https://twitter.com/lindwurm_" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="top" data-content="Twitter" title="Twitter">
+							<h2><span class="entypo-twitter"></span></h2>
+						</a>
+						<a href="http://blog.lindwurm.biz" target="_blank" class="btn btn-warning btn-lg" data-toggle="tooltip" data-placement="top" data-content="Blog" title="Blog">
+							<h2><span class="entypo-book-open"></span></h2>
+						</a>
+						<a href="https://github.com/lindwurm" target="_blank" class="btn btn-inverse btn-lg" data-toggle="tooltip" data-placement="top" data-content="GitHub" title="GitHub">
+							<h2><span class="entypo-github"></span></h2>
+						</a>
+						<a href="http://sourceforge.jp/users/lindwurm" target="_blank" class="btn btn-success btn-lg" data-toggle="tooltip" data-placement="top" data-content="SF.JP" title="SF.JP">
+							<h2><span class="entypo-network"></span></h2>
+						</a></center>
+					</div>
+				</div>
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/jquery-1.10.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script>
+		$("[data-toggle=tooltip]").tooltip()
+		</script>
+
+
+	</body>
+</html>
