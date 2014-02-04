@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,20 +12,35 @@
 		<link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
 
 		<!-- Facebook Metadata /-->
-		<meta property="og:image" content="icon.svg" />
+		<meta property="og:image" content="apple-touch-icon.png" />
 		<meta property="og:description" content="モードちゃんかわいい"/>
 		<meta property="og:title" content="lindwurm"/>
 
 		<!-- Google+ Metadata /-->
 		<meta itemprop="name" content="lab:lindwurm">
 		<meta itemprop="description" content="モードちゃんかわいい">
-		<meta itemprop="image" content="icon.svg">
+		<meta itemprop="image" content="apple-touch-icon.png">
 
 		<!-- Bootstrap core CSS -->
 		<link href="css/bootstrap.css" rel="stylesheet">
 
 		<!-- Custom styles -->
 		<link href="css/style.css" rel="stylesheet">
+
+		<style type="text/css">
+		@font-face {
+		font-family: "Koruri-Light";
+		src: url("http://koruri.lindwurm.biz/webfont/Koruri-Light.eot");
+		src: url("http://koruri.lindwurm.biz/webfont/Koruri-Light.eot?#iefix") format("embedded-opentype");
+		src: url("http://koruri.lindwurm.biz/webfont/Koruri-Light.woff") format("woff");
+		src: url("http://koruri.lindwurm.biz/webfont/Koruri-Light.ttf") format("truetype");
+		}
+
+		.row:lang(ja)
+		{
+			font-family: "Koruri-Light";
+		}
+		</style>
 	</head>
 
 	<body>
@@ -46,14 +61,15 @@
 									<h1>about this page</h1>
 									<img src="img/logo.svg" width="60%" class="img-circle img-thumbnail" />
 									<p class="lead">© lindwurm 2014</p>
-									<p>based on <a href="http://getbootstrap.com" target="_blank">Bootstrap 3</a>, licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a> .<br>
-									Code licensed under <a href="LICENSE.html" target="_blank">MIT Open Source License</a>.</p>
+									<p>lab:lindwurm based on <a href="http://getbootstrap.com" target="_blank">Bootstrap 3.1.0</a> and its Bootswatch theme <a href="http://bootswatch.com/yeti/">Yeti</a>.</p>
+									<p>All codes licensed under <a href="LICENSE.html" target="_blank">MIT Open Source License</a>.</p>
+									<p>Webfont: <a href="http://koruri.lindwurm.biz" lang="ja">小瑠璃フォント (koruri)</a>.</p>
 									<p>
 										<a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flindwurm.biz%2Flab&text=lab:lindwurm&tw_p=tweetbutton&url=http%3A%2F%2Flindwurm.biz" target="_blank" class="btn btn-primary btn-lg"><span class="entypo-twitter"></span> <b>Tweet</b></a>
 									</p>
 									<!-- Button trigger modal -->
 									<p>
-										<button class="btn btn-warning btn-lg" data-toggle="modal" data-target="#Kampa"><span class="glyphicon glyphicon-gift"></span> <b>お願い</b></button>
+										<button class="btn btn-warning btn-lg" data-toggle="modal" data-target="#Kampa"><span class="glyphicon glyphicon-gift"></span> <b lang="ja">お願い</b></button>
 									</p>
 								</center>
 							</div>
@@ -68,14 +84,15 @@
 							<div class="modal-body">
 								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 								<center>
-									<h1>お願い</h1>
-									<img src="http://ecx.images-amazon.com/images/I/7159SeZ82DL._AA1500_.jpg" width="60%" class="img img-thumbnail img-responsive" /><br>
-									<p class="lead">小瑠璃フォントの製作支援をお願いしています</p>
-									<p>Android上での検証環境として使っている ASUS  MeMO Pad HD 7 が壊れたため、製作に若干の支障が生じています。つきましては、今後の製作支援を兼ねたタブレット購入費用のカンパにご協力ください(任意です)。</p>
+									<h1 lang="ja">お願い</h1>
+									<img src="http://koruri.lindwurm.biz/icon.png" width="60%" class="img img-thumbnail img-responsive" /><br>
+									<p class="lead" lang="ja">小瑠璃フォントの製作支援をお願いしています</p>
+									<p lang="ja">小瑠璃フォントは Hotaka Hitagi 個人によって製作されています。</p>
+									<p lang="ja">所詮合成フォントではありますが、今後の製作支援にご協力ください(支援は任意ですが、支援を頂いた方の中で希望される方には無償でステッカーを差し上げる予定です)。</p>
 									<p>
 										<a href="http://kampa.me/t/dsg" target="_blank" class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-gift"></span> <b>Kampa!</b></a>
 									</p>
-									<p>
+									<p lang="ja">
 										<button class="btn btn-default" type="button" data-dismiss="modal">閉じる</button>
 									</p>
 								</center>
@@ -95,8 +112,9 @@
 					<div class="jumbotron"><center>
 						<h1>lindwurm</h1>
 						<h2>Open-Source Software Translator</h2>
-						<h3>モードちゃんかわいいです</h3>
-						<h4>latest work: <a href="http://koruri.lindwurm.biz">小瑠璃フォント</a></h4><hr>
+						<h3 lang="ja">モードちゃんかわいいです</h3>
+						<h4>latest work: <a href="http://koruri.lindwurm.biz" target="_blank" lang="ja">小瑠璃フォント</a></h4>
+						<hr>
 						<a href="https://twitter.com/lindwurm_" target="_blank" class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="top" data-content="Twitter" title="Twitter">
 							<h2><span class="entypo-twitter"></span></h2>
 						</a>
