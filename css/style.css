@@ -9,6 +9,10 @@
   font-family: "Koruri Light";
 }
 
+.iconlg {
+  font-size: 124px;
+}
+
 .modal.in {
    display:block;
 }
