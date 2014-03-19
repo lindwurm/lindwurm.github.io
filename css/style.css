@@ -5,6 +5,10 @@
   font-family: 'entypo', sans-serif;
 }
 
+:lang(en) {
+  font-family: "Koruri Light";
+}
+
 :lang(ja) {
   font-family: "Koruri Light";
 }
