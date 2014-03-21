@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'Koruri-Regular';
-    src: url('http://koruri.lindwurm.biz/webfont/Koruri.eot');
-    src: url('http://koruri.lindwurm.biz/webfont/Koruri.eot?#iefix') format('embedded-opentype');
-    src: url('http://koruri.lindwurm.biz/webfont/Koruri.woff') format('woff');
-    src: url('http://koruri.lindwurm.biz/webfont/Koruri.ttf') format('truetype');
+    font-family: 'Koruri';
+    src: url('http://koruri.lindwurm.biz/webfont/Koruri-Light.eot'),
+    url('http://koruri.lindwurm.biz/webfont/Koruri-Light.eot?#iefix') format('embedded-opentype'),
+    url('http://koruri.lindwurm.biz/webfont/Koruri-Light.woff') format('woff'),
+    url('http://koruri.lindwurm.biz/webfont/Koruri-Light.ttf') format('truetype');
     
     /*  for Chrome  */
-    src: url(http://koruri.lindwurm.biz/webfont/Koruri.woff) format('woff'); 
+    src: url(http://koruri.lindwurm.biz/webfont/Koruri-Light.woff) format('woff'); 
 }
 
 body {
-    font-family: Koruri-Regular !important;
+    font-family: Koruri !important;
 }
