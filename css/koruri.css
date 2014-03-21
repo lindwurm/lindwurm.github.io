@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Koruri-Regular';
+    src: url('http://koruri.lindwurm.biz/webfont/Koruri.eot');
+    src: url('http://koruri.lindwurm.biz/webfont/Koruri.eot?#iefix') format('embedded-opentype');
+    src: url('http://koruri.lindwurm.biz/webfont/Koruri.woff') format('woff');
+    src: url('http://koruri.lindwurm.biz/webfont/Koruri.ttf') format('truetype');
+    
+    /*  for Chrome  */
+    src: url(http://koruri.lindwurm.biz/webfont/Koruri.woff) format('woff'); 
+}
+
+body {
+    font-family: Koruri-Regular !important;
+}
