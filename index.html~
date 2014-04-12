@@ -156,7 +156,7 @@
 					<font color="#52B5E8"><span class="entypo-globe iconlg"></span></font>
 					<p class="lead">OSS Translator</p>
 					<p>OSS翻訳者でした。現在はお休みしています</p>
-					<p><a class="btn btn-default disabled" role="button">No details &raquo;</a></p>
+					<p><a class="btn btn-default btn-false" role="button">No details &raquo;</a></p>
 				</div><!-- /.col-lg-4 -->
 				<div class="col-lg-4">
 					<img src="img/koruri.png" width="180px" />
