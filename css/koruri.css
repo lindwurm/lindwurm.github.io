@@ -1,12 +1,13 @@
 @font-face {
-    font-family: 'Koruri';
-    src: url('../fonts/Koruri.woff') format('woff'),
-    url('../fonts/Koruri.ttf') format('truetype');
-    
-    /*  for Chrome  */
-    src: url(../fonts/Koruri.woff) format('woff'); 
+	font-family: 'KoruriSub';
+	src: url("../fonts/Koruri-subset_lindwurm.eot?") format('eot'),
+	url("../fonts/Koruri-subset_lindwurm.woff") format('woff'),
+	url("../fonts/Koruri-subset_lindwurm.ttf") format('truetype');
+		
+	/*  for Chrome  */
+	src: url(../fonts/Koruri-subset_lindwurm.woff) format('woff'); 
 }
 
 body {
-    font-family: Koruri !important;
+		font-family: KoruriSub !important;
 }
