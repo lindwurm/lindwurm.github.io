@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'KoruriSub';
-	src: url("../fonts/Koruri-subset_lindwurm.eot?") format('eot'),
-	url("../fonts/Koruri-subset_lindwurm.woff") format('woff'),
-	url("../fonts/Koruri-subset_lindwurm.ttf") format('truetype');
+	src: url("../fonts/Koruri-Regular-sub.eot?") format('eot'),
+	url("../fonts/Koruri-Regular-sub.woff") format('woff'),
+	url("../fonts/Koruri-Regular-sub.ttf") format('truetype');
 		
 	/*  for Chrome  */
-	src: url(../fonts/Koruri-subset_lindwurm.woff) format('woff'); 
+	src: url(../fonts/Koruri-Regular-sub.woff) format('woff'); 
 }
 
 body {
