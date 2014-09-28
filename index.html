@@ -1,140 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<link rel="shortcut icon" href="apple-touch-icon.png">
-
 		<title>lab:lindwurm</title>
 
-		<!-- Bootstrap core CSS -->
-		<link href="css/bootstrap.css" rel="stylesheet">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="lindwurm's portfolio">
+		<meta name="author" content="lindwurm">
 
-		<!-- Custom styles for this template -->
+		<link rel="shortcut icon" href="apple-touch-icon.png">
+
+		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/koruri.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-
 	</head>
 
 	<body>
-		<nav class="container navbar navbar-default" role="navigation">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#lindwurm-navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href=""><span class="entypo-cloud"></span> lab:lindwurm</a>
-			</div>
-			<div class="collapse navbar-collapse" id="lindwurm-navbar-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#home" data-toggle="tab"><span class="entypo-home"></span> Home</a></li>
-					<li><a href="#about" data-toggle="tab"><span class="entypo-user"></span> About</a></li>
-					<li><a href="#projects" data-toggle="tab"><span class="entypo-code"></span> Projects</a></li>
-					<li><a href="#contacts" data-toggle="tab"><span class="entypo-chat"></span> Contacts</a></li>
-				</ul>
-			</div>
-		</nav>
-
 		<div class="container">
-			<div class="tab-content">
-				<div class="tab-pane fade in active" id="home">
-					<div class="jumbotron">
-						<h1><span class="entypo-thumbs-up"></span> Welcome</h1>
-					</div>
-				</div>
-				<div class="tab-pane fade" id="about">
-					<div class="jumbotron">
-						<h1><span class="entypo-user"></span> About</h1>
-					</div>
-					<div class="col-md-3">
-						<img src="img/maudot.png" class="img-responsive" />
-					</div>
-					<div class="col-md-9">
-						<div class="well">
-						<h1>Hotaka Hitagi <span class="lead">a.k.a. lindwurm</span></h1>
-						<p class="lead">OSS Translator, Koruri Author</p>
-						<p class="lead">Wishlist: <a href="donate.html"><span class="entypo-basket"></span> Donate:lindwurm</a>
+			<div class="jumbotron top">
+				<div id="top-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+					<div class="carousel-inner">
+						<div class="item active">
+							<center>
+								<img src="img/airi.png" class="img-circle img-thumbnail" width="256">
+								<h2>Hotaka Hitagi <span class="lead">a.k.a. <b>"lindwurm"</b></h2>
+								<p><span class="fontawesome-beaker"></span> <i>Koruri Developer</i></p>
+								<p>
+									<a class="btn btn-xl btn-primary" href="https://twitter.com/lindwurm" target="_blank"><span class="zocial-twitter"></span></a>
+									<a class="btn btn-xl btn-danger" href="https://google.com/+HotakaHitagi" target="_blank"><span class="zocial-googleplus"></span></a>
+									<a class="btn btn-xl btn-info" href="http://blog.lindwurm.biz" target="_blank"><span class="zocial-blogger"></span></a>
+									<a class="btn btn-xl btn-inverse" href="https://github.com/lindwurm" target="_blank"><span class="fontawesome-github-alt"></span></a>
+									<a class="btn btn-xl btn-warning" href="donate.html" target="_blank"><span class="zocial-amazon"></span> </a>
+								</p>
+							</center>
+						</div>
+						<div class="item">
+							<center>
+								<img src="img/koruri.png" class="img-circle img-thumbnail" width="256">
+								<h2>Koruri <span class="lead">― Japanese TrueType font</h2>
+								<p><span class="fontawesome-thumbs-up"></span> <i>Now available</i></p>
+								<p>
+									<a class="btn btn-xl btn-primary" href="http://koruri.lindwurm.biz" target="_blank"><span class="fontawesome-globe"></span></a>
+									<a class="btn btn-xl btn-success" href="http://sourceforge.jp/projects/koruri/releases/" target="_blank"><span class="entypo-download"></span></a>
+									<a class="btn btn-xl btn-danger" href="https://plus.google.com/communities/111628823705499085586" target="_blank"><span class="entypo-google-circles"></span></a>
+									<a class="btn btn-xl btn-inverse" href="https://github.com/Koruri/Koruri/" target="_blank"><span class="entypo-github"></span></a>
+								</p>
+							</center>
 						</div>
 					</div>
 				</div>
-				<div class="tab-pane fade" id="projects">
-					<div class="jumbotron">
-						<h1><span class="entypo-code"></span> Projects</h1>
-					</div>
-					<div class="container marketing">
-						<div class="row">
-							<div class="col-md-6 col-lg-4">
-								<div class="well">
-									<img class="img-responsive" src="img/koruri.png" >
-									<div class="caption">
-										<h2>Koruri</h2>
-										<p>Japanese TrueType font obtained by mixing M+ FONTS and Open Sans.</p>
-										<p><a class="btn btn-info btn-lg" href="http://koruri.lindwurm.biz" target="_blank" role="button">Website &raquo;</a></p>
-									</div>
-								</div><!-- /.thumbnail -->
-							</div><!-- /.col-lg-4 -->
-							<div class="col-md-6 col-lg-4">
-								<div class="well">
-									<img class="img-responsive" src="img/antergos.png" >
-									<div class="caption">
-										<h2>AntergosJP</h2>
-										<p>Antergos gives you an <i>out-of-box</i> Arch Linux system. Ready to K.I.S.S.</p>
-										<p><a class="btn btn-primary btn-lg" href="http://antergosjp.github.io" target="_blank" role="button">Website &raquo;</a></p>
-									</div>
-								</div><!-- /.thumbnail -->
-							</div><!-- /.col-lg-4 -->
-							<div class="col-md-6 col-lg-4">
-								<div class="well">
-									<img class="img-responsive" src="img/mikutter-l10n.png" >
-									<div class="caption">
-										<h2>mikutter-l10n</h2>
-										<p>Localize mikutter that is simple, powerful, and moeful twitter client.</p>
-										<p><a class="btn btn-success btn-lg" href="http://mikutter-l10n.github.io" target="_blank" role="button">Website &raquo;</a></p>
-									</div>
-								</div><!-- /.thumbnail -->
-							</div><!-- /.col-lg-4 -->
-						</div><!-- /.row -->
-					</div><!-- /.marketing -->
-				</div>
-				<div class="tab-pane fade" id="contacts">
-					<div class="jumbotron">
-						<h1><span class="entypo-chat"></span> Contacts</h1>
-					</div>
-					<div class="container marketing">
-						<div class="row">
-							<div class="col-md-6 col-lg-4">
-								<div class="well">
-									<h2><span class="entypo-twitter"></span> Twitter <span class="lead">@lindwurm</span></h2>
-									<p><a class="btn btn-primary btn-lg" href="https://twitter.com/lindwurm" target="_blank" role="button"><span class="entypo-twitter"></span> Twitter &raquo;</a></p>
-								</div>
-							</div><!-- /.col-lg-4 -->
-							<div class="col-md-6 col-lg-4">
-								<div class="well">
-									<h2><span class="entypo-gplus"></span> Google+ <span class="lead">Hotaka Hitagi</span></h2>
-									<p><a class="btn btn-danger btn-lg" href="https://google.com/+HotakaHitagi" target="_blank" role="button"><span class="entypo-gplus"></span> Google+  &raquo;</a></p>
-								</div>
-							</div><!-- /.col-lg-4 -->
-							<div class="col-md-6 col-lg-4">
-								<div class="well">
-									<h2><span class="entypo-github"></span> GitHub <span class="lead">@lindwurm</span></h2>
-									<p><a class="btn btn-inverse btn-lg" href="https://github.com/lindwurm" target="_blank" role="button"><span class="entypo-github"></span> GitHub  &raquo;</a></p>
-								</div>
-							</div><!-- /.col-lg-4 -->
-						</div><!-- /.row -->
-					</div><!-- /.marketing -->
-				</div>
-			</div><!-- /.tab-content -->
-		</div><!-- /.container -->
+			</div>
+		</div>
+
 		<div class="container">
 			<hr>
 			<div class="footer">
-				<p class="pull-right"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flindwurm.biz%2Flab&text=lab:lindwurm&tw_p=tweetbutton&url=http%3A%2F%2Flindwurm.biz%2Flab" target="_blank" class="btn btn-default btn-sm" role="button"><font color="#3A93DF"><span class="entypo-twitter"></span></font> Tweet</a>
-				<p>(c)2014 Hotaka Hitagi (lindwurm). codes licensed under <a data-toggle="modal" href="#LICENSE">The MIT License</a>.</p>
+				<p class="small">&copy; 2014 Hotaka Hitagi (lindwurm). codes licensed under <a data-toggle="modal" href="#LICENSE">The MIT License</a>.</p>
 			</div>
 
 		</div> <!-- /.container -->
@@ -155,6 +78,7 @@
 						<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 					</div>
 					<div class="modal-footer">
+						<a class="btn btn-success"  href="LICENSE" target="_blank">Raw</a>
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
@@ -165,16 +89,7 @@
 		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="js/jquery-1.10.1.min.js"></script>
+		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
-		<script>
-			$(function () {
-				$('#myTab a:last').tab('show')
-			})
-		</script>
-		<script>
-			$("[data-toggle=popover]").popover('show')
-		</script>
-
 	</body>
 </html>

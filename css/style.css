@@ -1,8 +1,46 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome|zocial);
 
 /* entypo */
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* entypo */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.btn-xl,
+.btn-group-xl > .btn {
+  padding: 24px 24px;
+  font-size: 42px;
+  line-height: 1;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.btn-xlg,
+.btn-group-xlg > .btn {
+  padding: 50px 20px;
+  font-size: 128px;
+  line-height: 1;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .iconlg {
@@ -17,11 +55,15 @@
   margin-top: 30px;
 }
 
+.top {
+  margin-top: 20px;
+}
+
 /* btn-inverse */
 .btn-inverse {
 	color: #ffffff;
 	background-color: #292929;
-	border-color: #1F1F1F;
+	border-color: #171717;
 }
 
 .btn-inverse:hover,
@@ -30,14 +72,8 @@
 .btn-inverse.active,
 .open .dropdown-toggle.btn-inverse {
 	color: #ffffff;
-	background-color: #414141;
+	background-color: #292929;
 	border-color: #171717;
-}
-
-.btn-inverse:active,
-.btn-inverse.active,
-.open .dropdown-toggle.btn-inverse {
-	background-image: none;
 }
 
 .btn-inverse.disabled,
@@ -63,6 +99,8 @@ fieldset[disabled] .btn-inverse.active {
 	color: #292929;
 	background-color: #fff;
 }
+
+*/
 
 /*customized tooltip*/
 .tooltip {
