@@ -21,7 +21,7 @@
 		<div class="container">
 			<div class="jumbotron top">
 				<center>
-					<img src="img/avatar.png" class="img-circle img-thumbnail" width="256">
+					<img src="img/icon_normal.png" class="img-circle img-thumbnail" width="256" />
 					<h1><b>lindwurm</b></h1>
 					<p><span class="entypo-globe"></span> OSS Translator</p>
 					<p>
@@ -72,5 +72,16 @@
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
+		<script type="text/javascript">
+		$(function(){
+			$('img').hover(function(){
+				$(this).attr('src', $(this).attr('src').replace('_normal', '_smile'));
+					}, function(){
+					   if (!$(this).hasClass('current')) {
+					   $(this).attr('src', $(this).attr('src').replace('_smile', '_normal'));
+				}
+			});
+		});
+		</script>
 	</body>
 </html>
