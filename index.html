@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -23,14 +23,58 @@
 				<center>
 					<img src="img/avatar.png" class="img-circle img-thumbnail" width="256" />
 					<h1><b>lindwurm</b></h1>
-					<p><span class="entypo-globe"></span> OSS Translator</p>
 					<p>
-						<a class="btn btn-xl btn-info" href="https://twitter.com/lindwurm" target="_blank"><span class="zocial-twitter"></span></a>
-						<a class="btn btn-xl btn-danger" href="https://google.com/+HotakaHitagi" target="_blank"><span class="zocial-googleplus"></span></a>
-						<a class="btn btn-xl btn-primary" href="http://blog.lindwurm.biz" target="_blank"><span class="zocial-blogger"></span></a>
-						<a class="btn btn-xl btn-inverse" href="https://github.com/lindwurm" target="_blank"><span class="entypo-github"></span></a>
-						<a class="btn btn-xl btn-warning" href="donate.html" target="_blank"><span class="zocial-amazon"></span> </a>
+						<button type="button" class="btn btn-xl btn-default" data-toggle="collapse" data-target="#about"><span class="fontawesome-user"></span></button>
+						<button type="button" class="btn btn-xl btn-default" data-toggle="collapse" data-target="#project"><span class="fontawesome-dashboard"></span></button>
+						<button type="button" class="btn btn-xl btn-default" data-toggle="collapse" data-target="#device"><span class="fontawesome-mobile-phone"></span></button>
+						<button type="button" class="btn btn-xl btn-default" data-toggle="collapse" data-target="#sns"><span class="fontawesome-globe"></span></button>
+						<button type="button" class="btn btn-xl btn-default" data-toggle="collapse" data-target="#wishlist"><span class="fontawesome-gift"></span></button>
 					</p>
+					<div id="about" class="collapse" style="margin-top:10px">
+						<h2><span class="fontawesome-user"></span> about</h2>
+						<p>Name - Hotaka Hitagi</p>
+						<p>also known as - lindwurm</p>
+						<p>Called - ほた</p>
+						<p>Job - Student</p>
+					</div>
+					<div id="project" class="collapse" style="margin-top:10px">
+						<h2><span class="fontawesome-dashboard"></span> Project</h2>
+						<p><a href="http://koruri.lindwurm.biz" target="_blank">Koruri</a> - Developer</p>
+						<p><a href="http://antergosjp.github.io" target="_blank">Antergos Japanese Team (AntergosJP)</a> - Coordinator</p>
+						<p><a href="http://linuxmint-jp.net" target="_blank">Linux Mint Japan</a> - Member</p>
+						<p><a href="http://supertuxkart.sourceforge.net" target="_blank">SuperTuxKart Team</a> - Localizer</p>
+						<p><a href="https://www.transifex.com/projects/p/mikutter/" target="_blank">mikutter-l10n</a> - Leader</p>
+					</div>
+					<div id="device" class="collapse" style="margin-top:10px">
+						<h2><span class="fontawesome-mobile-phone"></span> Device</h2>
+						<p>G2 (L-01F)</p>
+						<p>Kindle Fire HDX 7 (thor)</p>
+						<p>isai (LGL22)</p>
+						<p>Galaxy S IIIα (SC-03E)</p>
+						<p>Galaxy S (SC-02B)</p>
+						<p>AQUOS PHONE ZETA (SH-02E)</p>
+						<p>Xperia acro HD (IS12S)</p>
+						<p>MeMO Pad HD 7 (ME173X)</p>
+					</div>
+					<div id="sns" class="collapse" style="margin-top:10px">
+						<h2><span class="fontawesome-globe"></span> SNS</h2>
+						<p>Twitter - <a href="https://twitter.com/lindwurm" target="_blank">@lindwurm</a></p>
+						<p>GitHub - <a href="https://github.com/lindwurm" target="_blank">lindwurm</a></p>
+						<p>Google+ - <a href="https://plus.google.com/+HotakaHitagi" target="_blank">Hotaka Hitagi</a></p>
+						<p>Blog - <a href="http://blog.lindwurm.biz" target="_blank">ておくれブログ</a></p>
+						<p>Launchpad - <a href="https://launchpad.net/~lindwurm" target="_blank">lindwurm</a></p>
+						<p>Transifex - <a href="https://www.transifex.com/accounts/profile/lindwurm/" target="_blank">lindwurm</a></p>
+					</div>
+					<div id="wishlist" class="collapse" style="margin-top:10px">
+						<h2><span class="fontawesome-gift"></span> Wishlist</h2>
+						<p>Main - <a href="http://bit.ly/lindwurm_" target="_blank">bit.ly/lindwurm_</a></p>
+						<p>PC関係 - <a href="http://bit.ly/lindwurm_dev" target="_blank">bit.ly/lindwurm_dev</a></p>
+						<p>端末 - <a href="http://bit.ly/lindwurm_gadgets" target="_blank">bit.ly/lindwurm_gadgets</a></p>
+						<p>ゲーム - <a href="http://bit.ly/lindwurm_games" target="_blank">bit.ly/lindwurm_games</a></p>
+						<p>ThinkPad - <a href="http://bit.ly/lindwurm_think" target="_blank">bit.ly/lindwurm_think</a></p>
+						<p>イリヤかわいい - <a href="http://bit.ly/lindwurm_illya" target="_blank">bit.ly/lindwurm_illya</a></p>
+						<p>一人暮らし用 - <a href="http://bit.ly/lindwurm_newlife" target="_blank">bit.ly/lindwurm_newlife</a></p>
+					</div>
 				</center>
 			</div>
 		</div>
@@ -72,6 +116,9 @@
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
+		<script>
+			$('.collapse').collapse('hide')
+		</script>
 		<script type="text/javascript">
 		$(function(){
 			$('img').hover(function(){

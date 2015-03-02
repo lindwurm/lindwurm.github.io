@@ -1,6 +1,6 @@
-lab:lindwurm
+lindwurm.github.io
 ===
 
-Flexible and responsive website test based on **Bootstrap 3**.
+My personal website. [http://lindwurm.biz]
 
 All code licensed under the MIT Open Source License.
