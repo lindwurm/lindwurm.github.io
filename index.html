@@ -21,7 +21,7 @@
 		<div class="container">
 			<div class="jumbotron top">
 				<center>
-					<img src="img/avatar.png" class="img-circle img-thumbnail" width="256" />
+					<img src="img/icon.png" class="img-circle img-thumbnail" width="256" />
 					<h1><b>lindwurm</b></h1>
 					<p>
 						<button type="button" class="btn btn-xl btn-default" data-toggle="collapse" data-target="#about"><span class="fontawesome-user"></span></button>
@@ -118,17 +118,6 @@
 		<script src="js/bootstrap.js"></script>
 		<script>
 			$('.collapse').collapse('hide')
-		</script>
-		<script type="text/javascript">
-		$(function(){
-			$('img').hover(function(){
-				$(this).attr('src', $(this).attr('src').replace('avatar', 'avatar_wink'));
-					}, function(){
-					   if (!$(this).hasClass('current')) {
-					   $(this).attr('src', $(this).attr('src').replace('avatar_wink', 'avatar'));
-				}
-			});
-		});
 		</script>
 	</body>
 </html>
