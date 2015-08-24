@@ -31,10 +31,10 @@
 
 .btn-xlg,
 .btn-group-xlg > .btn {
-  padding: 50px 20px;
+  padding: 48px 48px;
   font-size: 128px;
   line-height: 1;
-  border-radius: 20%;
+  border-radius: 50%;
   width: 240px;
   height: 240px;
   margin-top: 15px;
