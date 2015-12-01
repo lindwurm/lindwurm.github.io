@@ -1,19 +1,4 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome|zocial);
-
-/* entypo */
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-}
-
-/* fontawesome */
-[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
-}
-
-/* entypo */
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-}
+/* style */
 
 .btn-xl,
 .btn-group-xl > .btn {

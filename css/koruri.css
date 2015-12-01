@@ -1,12 +1,15 @@
 @font-face {
     font-family: 'Koruri';
-    src: url('http://cdn.ghippos.net/font/webkoruri/20140628/WebKoruri.eot');
-    src: url('http://cdn.ghippos.net/font/webkoruri/20140628/WebKoruri.eot?#iefix') format('embedded-opentype');
-    src: url('http://cdn.ghippos.net/font/webkoruri/20140628/WebKoruri.woff') format('woff'),
-         url('http://cdn.ghippos.net/font/webkoruri/20140628/WebKoruri.ttf') format('truetype');
-    
+    src: url('../fonts/WebKoruri.eot');
+    src: url('../fonts/WebKoruri.eot?#iefix') format('embedded-opentype');
+    src: url('../fonts/WebKoruri.woff') format('woff'),
+         url('../fonts/WebKoruri.ttf') format('truetype');
+
     /*  for chrome  */
-    src: url(http://cdn.ghippos.net/font/webkoruri/20140628/WebKoruri.woff) format('woff'); 
+    src: url(../fonts/WebKoruri.woff) format('woff');
+
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
