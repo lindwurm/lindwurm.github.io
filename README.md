@@ -1,6 +1,7 @@
-lindwurm.github.io
-===
+# lindwurm.github.io
 
-My personal website. [http://maud.io]
+My personal website.  
 
-All code licensed under the MIT Open Source License.
+* domain: [maud.io](https://maud.io)
+
+All codes are licensed under [The MIT License](https://opensource.org/licenses/MIT).

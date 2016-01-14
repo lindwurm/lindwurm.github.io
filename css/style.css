@@ -47,11 +47,13 @@
 }
 
 .jumbotron-io {
-  padding-top: 50px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 32px;
+  padding-bottom: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
   color: inherit;
   background-color: white;
+  border-radius: 12px;
 }
 .jumbotron-io h1,
 .jumbotron-io .h1 {
