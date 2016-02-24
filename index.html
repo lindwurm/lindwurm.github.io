@@ -135,11 +135,12 @@
 						<h2><span class="text-info icon-dashboard"></span> Projects</h2>
 						<p><b><a href="http://koruri.lindwurm.biz" target="_blank">Koruri</a></b> - Author</p>
 						<p><b><a href="https://github.com/mordiford" target="_blank">mordiford</a></b> - Developer</p>
-						<p><b><a href="http://resurrectionremix.com" target="_blank">Resurrection Remix</a></b> - Translator</p>
+						<p><b><a href="http://resurrectionremix.com" target="_blank">Resurrection Remix</a></b> - Translate/Build</p>
 					</div>
 					<div id="device" class="collapse">
 						<h2><span class="text-primary icon-mobile"></span> Devices</h2>
 						<p><b>G4</b> (LG-H815, <code>h815</code>)</p>
+						<p><b>Nexus 5</b> (LG-D821, <code>hammerhead</code>)</p>
 						<p><b>Nexus 4</b> (LG-E960, <code>mako</code>)</p>
 						<p><b>GALAXY S</b> (SC-02B, <code>galaxysmtd</code>)</p>
 						<p><b>Kindle Fire HDX 7</b> (KFTHWI, <code>thor</code>)</p>
@@ -154,7 +155,6 @@
 						<p>Google+ - <a href="https://plus.google.com/+HotakaHitagi" target="_blank">+HotakaHitagi</a></p>
 						<p>GitHub - <a href="https://github.com/lindwurm" target="_blank">lindwurm</a></p>
 						<p>XDA-Developers - <a href="http://forum.xda-developers.com/member.php?u=6024671" target="_blank">@1indwurm</a></p>
-						<p>AndroidFileHost - <a href="https://www.androidfilehost.com/?w=profile&uid=95853297432265091" target="_blank">lindwurm</a></p>
 						<p>Transifex - <a href="https://www.transifex.com/accounts/profile/lindwurm/" target="_blank">lindwurm</a></p>
 					</div>
 					<div id="wishlist" class="collapse">
@@ -176,7 +176,9 @@
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script>
-			$('.collapse').collapse('hide')
+		$('.btn').click(function() {
+			$('.collapse').not(this).collapse('hide');
+		});
 		</script>
 	</body>
 </html>
