@@ -97,7 +97,7 @@
 .btn-pink.active.focus,
 .open > .dropdown-toggle.btn-pink.focus {
   color: #ffffff;
-  background-color: #C2185B;
+  background-color: #8C1142;
   border-color: rgba(0, 0, 0, 0);
 }
 .btn-pink:active,
@@ -129,4 +129,23 @@ fieldset[disabled] .btn-pink.focus {
 a.text-pink:hover,
 a.text-pink:focus {
   color: #C2185B;
+}
+
+.btn-pink:focus {
+  background-color: #f51e73;
+}
+.btn-pink:hover,
+.btn-pink:active:hover {
+  background-color: #db1b67;
+}
+.btn-pink:active {
+  background-color: #C2185B;
+  background-image: -webkit-radial-gradient(circle, #C2185B 10%, #f51e73 11%);
+  background-image: -o-radial-gradient(circle, #C2185B 10%, #f51e73 11%);
+  background-image: radial-gradient(circle, #C2185B 10%, #f51e73 11%);
+  background-repeat: no-repeat;
+  -webkit-background-size: 1000% 1000%;
+          background-size: 1000%;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
