@@ -31,6 +31,10 @@
   font-size: 200px;
 }
 
+.text-center {
+  text-align: center !important;
+}
+
 /* hover */
 
 .hoverable {
@@ -67,7 +71,7 @@
 }
 .jumbotron-io h1,
 .jumbotron-io .h1 {
-	padding-top: 120px;
+	padding-top: 128px;
   color: #444444;
 }
 .jumbotron-io p {
@@ -192,6 +196,10 @@ a.text-pink:focus {
 
 .card-text:last-child {
   margin-bottom: 0;
+}
+
+.card-footer {
+  padding: 1.25rem;
 }
 
 @media (min-width: 576px) {
