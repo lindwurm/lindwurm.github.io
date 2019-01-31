@@ -76,3 +76,7 @@ h1, h2, h3, h4, h5, h6, p {
 .tabs .tab a:focus, .tabs .tab a:focus.active {
   background-color: transparent;
 }
+
+.tabs .tab a {
+  margin-top: 6px;
+}
