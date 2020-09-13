@@ -80,3 +80,7 @@ h1, h2, h3, h4, h5, h6, p {
 .tabs .tab a {
   margin-top: 6px;
 }
+
+.content-tab {
+  margin-top: 0.6em;
+}
