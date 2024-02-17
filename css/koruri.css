@@ -31,6 +31,6 @@
     font-display: swap;
 }
 
-body {
+body, h1, h2, h3, p {
     font-family: Koruri !important;
 }
